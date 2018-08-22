@@ -1,0 +1,28 @@
+{
+  "name": "h5scroll",
+  "version": "5.0.1",
+  "description": "mobile scroll plug",
+  "main": "dist/index.js",
+  "repository": "https://github.com/whitemiaool/h5scroll",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "h5 scroll"
+  ],
+  "author": "dyxuan",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-es2015-arrow-functions": "^6.22.0",
+    "babel-plugin-transform-es2015-classes": "^6.24.1",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "dependencies": {
+    "react": "^16.4.2"
+  }
+}

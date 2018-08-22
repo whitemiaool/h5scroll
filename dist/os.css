@@ -1,0 +1,21 @@
+.c-wrap {
+    width: 100%;
+    height: calc(100vh - 89px);
+    overflow-y: auto;
+    position: relative;
+  }
+
+  .c-c {
+      width: 100%;
+      position: relative;
+  }
+
+  body {
+    overscroll-behavior-y: contain;
+  }
+  .c-load {
+    top: -35px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
