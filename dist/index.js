@@ -219,7 +219,7 @@ var App = function (_Component) {
                 transition = _state.transition;
 
             var contentStyle = {
-                transform: 'translateY(' + (loadingTop || 0) + 'px)',
+                transform: 'translateZ(0) translateY(' + (loadingTop || 0) + 'px)',
                 transition: transition ? '' : 'all 0.5s'
             };
             return _react2.default.createElement(

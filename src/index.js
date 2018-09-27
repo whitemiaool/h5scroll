@@ -155,7 +155,7 @@ class App extends Component {
     render() {
         let { loadingTop,transition} = this.state;
         let contentStyle = {
-            transform: `translateY(${loadingTop || 0}px)`,
+            transform: `translateZ(0) translateY(${loadingTop || 0}px)`,
             transition: transition?'':`all 0.5s`
         };
         return (
